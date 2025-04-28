@@ -104,7 +104,20 @@ h1 {
 
 /* Mobile responsiveness */
 @media (max-width: 600px) {
-    .night {
-        width: 80%;
-    }
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px 6px;
+  }
+
+  .night-results {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .night-results .night {
+    width: 90%;
+  }
 }
