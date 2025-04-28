@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #28a745;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#standings-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+	
+}
+
+#standings {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#standings th, #standings td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#standings th {
+    background: #ffcc00;
+    color: black;
+}
+
+/* Results Page */
+#results-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.night {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    min-height: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.night h3 {
+    margin-bottom: 10px;
+}
+
+.night ol {
+    list-style: none;
+    padding: 0;
+}
+
+.night li {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Medal colors */
+.gold {
+    color: #FFD700;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.bronze {
+    color: #CD7F32;
+}
+
+/* Buttons */
+.link-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.link-button:hover {
+    background-color: #ffdb4d;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .night {
+        width: 80%;
+    }
+}
