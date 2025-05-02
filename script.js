@@ -7,7 +7,6 @@ const gameNights = [
         date: "2025-04-26",
         results: ["Mogale", "Gomo", "Teboho", "Ota", "Africa", "Beckham"]
     }
-    }
 ];
 
 // Points system
