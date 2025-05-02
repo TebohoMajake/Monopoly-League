@@ -9,7 +9,7 @@ const gameNights = [
      },
      {
           date: "2025-05-02",
-          results: ["", "", "", "Africa", "Ota", "Teboho"]
+          results: ["", "", "", "", "Ota", "Teboho"]
      }
  ];
  
