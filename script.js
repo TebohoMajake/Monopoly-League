@@ -18,6 +18,10 @@ const gameNights = [
      {
           date: "2025-07-25",
           results: ["Beckham", "Gomo", "Mogale", "Teboho", "Africa", "Ota"]
+     },
+     {
+          date: "2025-08-01",
+          results: ["Ota", "Beckham", "Gomo", "Mogale", "Teboho", "Africa"]
      }
  ];
  
@@ -79,3 +83,4 @@ const gameNights = [
          resultsBody.appendChild(nightDiv);
      });
  }
+
